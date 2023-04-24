@@ -1,0 +1,113 @@
+*****List*****
+
+List = [22, 21, 3, 2.3]
+
+print("\n",List)
+
+*****Tuple*****
+
+Tuple = (‘Narayan’, 'For')
+
+print("\nTuple with the use of String: ")
+
+print(Tuple)
+
+*****String*****
+
+String = "Welcome to AITR"
+
+print("\nCreating String: ")
+
+print(String)
+
+print("\nFirst character of String is: ",String[0])
+
+print("\nLast character of String is: ",String[-1])
+
+*****Dictionary*****
+
+Dict = {'Name': 'Punase', 'List' : [1, 2, 3, 4]}
+
+print("\nCreating Dictionary: ")
+
+print(Dict)
+
+print("\nAccessing an element using key:")
+
+print(Dict['Name'])
+
+print("\nAccessing an element using get:")
+
+print(Dict.get("List"))
+
+myDict = {x: x**2 for x in [1,2,3,4,5]}
+
+print(myDict)
+
+List = [1, 2, 3, 2.3]
+
+print(List)Lambda Function
+
+str1 = 'Good Morning'
+
+rev_upper = lambda string: string.upper()[::-1]
+
+print(rev_upper(str1))
+
+Python Classes and Object
+
+class Bike:
+
+name = ""
+
+gear = 0
+
+bike1 = Bike()
+
+bike1.gear = 11
+
+bike1.name = "Mountain Bike"
+
+print(f"Name: {bike1.name}, Gears: {bike1.gear} ")
+
+Numpy
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+print(type(arr))
+
+Panda
+
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+print(df.to_string())
+
+Mathplot Lib
+
+importsys
+
+import matplotlib
+
+matplotlib.use('Agg')
+
+import matplotlib.pyplot as plt
+
+import numpy as np
+
+xpoints = np.array([0, 6])
+
+ypoints = np.array([0, 250])
+
+plt.plot(xpoints, ypoints)
+
+plt.show()
+
+plt.savefig(sys.stdout.buffer)
+
+sys.stdout.flush(
